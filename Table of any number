@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int num;
+	printf("enter the number to find table: ");
+	scanf("%d",&num);
+	
+	for(int a=1;a<=10;a++)
+	{
+		printf("\n%d*%d=%d",num,a,num*a);
+	}
+}
